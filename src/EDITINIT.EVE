@@ -1,0 +1,8 @@
+! EVE Initialisation file for KLC International enquiry system
+! This was written by ADAM LATCHEM 8-Apr-1993
+!
+SET KEYPAD EDT
+SET WIDTH 80
+SET LEFT MARGIN 6
+TPU DEFINE_KEY( "klc_tpuinclude", KEY_NAME( "1", SHIFT_KEY ) );
+TPU DEFINE_KEY( "klc_tpuwrite", KEY_NAME( "2", SHIFT_KEY ) );
