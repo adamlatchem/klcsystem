@@ -1,0 +1,18 @@
+DATE:     \D
+
+FAX:      \F
+
+ATTN:     \1N
+          \1T
+          \C
+
+FROM:     NICHOLAS CANTRILL
+
+YOUR REF:
+OUR REF:  \R
+
+WE ARE PLEASED TO CONFIRM YOUR ORDER OF THE FOLLOWING ITEMS AND SPARE PARTS.
+
+ITEM  QTY   DECRIPTION                      PART NUMBER  UNIT PRICE  TOTAL PRICE
+[END]
+0R    4     1                               2       T    6            8
