@@ -1,0 +1,511 @@
+1 General
+2 Editing
+
+ Editing is performed from the keyboard.  A block will appear
+ showing the area into which data may be placed.  Movement around
+ this area is achieved by use of the arrow keys/ delete or by
+ entering character data.  To begin with all editing is done in
+ overstrike mode.  To change to insert mode (i.e. characters are
+ moved along to fit new characters in) simply hold down the
+ CONTROL key and press A.  When you have entered data in a field
+ press RETURN to let the application know that you have finished.
+
+2 Enquiry_Editing
+
+ Using the enquiry editor is very simple.  After selecting the
+ correct enquiry number, you will be presented with a screen
+ showing the address of the customer who has made the enquiry. 
+ The bottom of the screen shows up to 10 lines of the enquiry at
+ once.  To move between the lines use the up and down arrow keys
+ on the terminals keyboard.  Each field is enclosed in vertical
+ lines and once selected is highlighted.  To move between fields
+ use the left and right arrow keys.  Once you have selected a
+ field enter the data and press RETURN to indicate you have
+ entered all you want.
+
+ When you have finished editing press PF1 on the keypad.  You are
+ asked if you want to save the changes you have made press Y to
+ save the changes to the file.  Now you will return to the
+ Enquiry menu.  If you wish to delete an enquiry then press D. 
+ At this point you are asked if you really want ot delete the
+ enquiry.  Press Y if you do or any key to get back to the menu. 
+ If the enquiry was created today then you can not delete it
+ until tomorrow, this is so that the program does not try to
+ allocate a number that has been used and then deleted.
+
+ To delete a line from an order press the DELETE key.  TO insert
+ extra lines in an order move to the line you want to insert
+ before and press the RETURN key.  Note there is a maximum of
+ 1000 lines per order.
+
+ If you want to quickly move through the enquiry then use the
+ following number keys - NOTE You must use the numbers on the
+ keypad and not those on the main keyboard and you must also
+ press the PF3 key first otherwise the application will think
+ that you are using the keypad keys as numbers -
+
+        1 - move down 20 lines          4 - move up 20 lines
+        2 - move down 50 lines          5 - move up 50 lines
+        3 - move down 100 lines         6 - move up 100 lines
+
+ After entering data it is validated to check that you have only
+ entered numbers for example in the discount fields.  If there
+ are any errors then the invalid characters are removed from the
+ string.
+
+1 Utilities
+
+ This option will take you to the utitlity menu.  Here you may
+ create a fax, execute dcl commands and move records between the
+ customer and supllier data base files.  To get to the utilitiies
+ menu just select Utilities with the arrow keys and RETURN from
+ the main menu.
+ 
+1 Enquiry_Editing
+
+ Using the enquiry editor is very simple.  After selecting the
+ correct enquiry number, you will be presented with a screen
+ showing the address of the customer who has made the enquiry. 
+ The bottom of the screen shows up to 10 lines of the enquiry at
+ once.  To move between the lines use the up and down arrow keys
+ on the terminals keyboard.  Each field is enclosed in vertical
+ lines and once selected is highlighted.  To move between fields
+ use the left and right arrow keys.  Once you have selected a
+ field enter the data and press RETURN to indicate you have
+ entered all you want.
+
+ When you have finished editing press PF1 on the keypad.  You are
+ asked if you want to save the changes you have made press Y to
+ save the changes to the file.  Now you will return to the
+ Enquiry menu.  If you wish to delete an enquiry then press D. 
+ At this point you are asked if you really want ot delete the
+ enquiry.  Press Y if you do or any key to get back to the menu. 
+ If the enquiry was created today then you can not delete it
+ until tomorrow, this is so that the program does not try to
+ allocate a number that has been used and then deleted.
+
+ To delete a line from an order press the DELETE key.  TO insert
+ extra lines in an order move to the line you want to insert
+ before and press the RETURN key.  Note there is a maximum of
+ 1000 lines per order.
+
+ If you want to quickly move through the enquiry then use the
+ following number keys - NOTE You must use the numbers on the
+ keypad and not those on the main keyboard and you must also
+ press the PF3 key first otherwise the application will think
+ that you are using the keypad keys as numbers -
+
+        1 - move down 20 lines          4 - move up 20 lines
+        2 - move down 50 lines          5 - move up 50 lines
+        3 - move down 100 lines         6 - move up 100 lines
+
+ After entering data it is validated to check that you have only
+ entered numbers for example in the discount fields.  If there
+ are any errors then the invalid characters are removed from the
+ string.
+
+1 Copy
+2 Information
+
+ This option from the utilities menu will allow a supplier
+ database entry to be copied to the customer database or vice
+ versa.  You will be prompted as to wether the source is a
+ supplier or customer and you must also enter the source short
+ code as well as a destination short code.  The short codes
+ should be unique.
+
+1 DCL
+2 Commands
+                  
+ This option allows you to run DCL commands in a sub process.  A
+ new process will be created each time.  To return to the
+ application, you must type "LO" i.e. log out of the process you
+ are in.
+
+1 Show
+2 Enquiry
+3 States
+
+ This option will display all the active enquiries on the system. 
+ This is useful should you forget an enquiry number.  Along side
+ each enquiry number is the customer shortcode for the enquiry. 
+ There is also a status field.  This tells you what options have
+ been performed on each order.  The codes in this field have the
+ following meanings :
+
+             S - A purchase order has been made to suppliers
+             Q - A quote has been produced for the customer
+             I - An invoice has been printed for the customer
+             P - A packing list has been produced for this order
+
+ If the number of enquiries fills more than one screen then you
+ will be asked to press any key to see the next screen.  At the
+ end of the list press any key to return to the menu.
+
+1 Editing
+
+ Editing is performed from the keyboard.  A block will appear
+ showing the area into which data may be placed.  Movement around
+ this area is achieved by use of the arrow keys/ delete or by
+ entering character data.  To begin with all editing is done in
+ overstrike mode.  To change to insert mode (i.e. characters are
+ moved along to fit new characters in) simply hold down the
+ CONTROL key and press A.  When you have entered data in a field
+ press RETURN to let the application know that you have finished.
+
+1 Enquiry
+ 
+ Selecting this menu option will take you to a new menu.  It
+ allows you to access the ENQUIRY functions so that you can add a
+ new enquiry for a customer or change an existing enquiry to
+ match customer specifications.  Just use the cursor keys to move
+ the highlight.  Now just type what you want in the field you
+ have selected.  Finally press the RETURN key on the keyboard to
+ return to the field selection process.  The Enquiry function
+ allows you to enter up to 9999 lines for each enquiry.  If you
+ want to edit an enquiry, you must know the enquiry number before
+ hand.
+
+1 Costing
+
+ Selecting the 'Costing' option from the main menu will take you
+ to the costing menu.  From here you can make further selections
+ in order to cost an enquiry.  You will be able to enter unit
+ prices, discounts and profit margins.  A quote can also be
+ produced for the customers reference.
+
+1 Costing
+2 /Produce
+3 Order
+
+ Selecting the 'Costing/Produce Order' option will take you to a
+ new menu, from where you may send orders to suppliers.  This new
+ menu also allows production of an invoice and packing list for a
+ customers order.  You may also perfrom various costing
+ operations.
+
+1 Produce
+2 Supplier
+3 Enquiry
+
+ This option will allow you to print out supply enquiry forms. 
+ Each line of a customers enquiry is associated with up to 5
+ suppliers, each supplier specified will be asked to quote on
+ that item.  After the enquiries have been produced, the system
+ will ask if you wish to edit any of the files.  If you do then
+ press "Y".  If you do want to edit files then each supplier name
+ will be displayed and you will be asked if you want to edit
+ their file.  If you do press "Y".  After editing has been
+ completed, the enquiries will be printed out on the main printer
+ connected to this system.
+
+ Note that the files printed will start with the text contained
+ in the file KLC$PATH:SUPORDER1.LIS.  This can be edited by
+ typing EDIT/TPU SUPORDER1.LIS from VMS.  Any changes in this
+ file will be reflected on all enquiries printed later.  The
+ enquiry is ended with the text contained in the file
+ SUPORDER2.LIS.  Again this may be edited to suit.  Note that
+ these two files are used on all supplier enquiries.
+
+ There are a number of things that you may want displayed on the
+ fax to a supplier.  To facilitate this process special
+ "commands" have been included in the file SUPORDER1.LIS.  By
+ entering the codes shown below the various bits of information
+ about weach supplier will be placed on the enquiry request form. 
+ Note that each item takes up a set space so it is important to
+ plan the layout so text is not overwritten.  All substitution
+ begins at the position iof the \ character.
+
+        \An (n=1..6) display 1 address line   40 characters each
+        \T           display telephone number 20 characters
+        \F           display fax number       20 characters
+        \1s \ (s=T or N ) display contact     30 characters each
+        \2s / 1 or 2's Title/Name
+        \C           display company name     40 characters
+        \D           display todays date       9 characters
+        \R           display enquiry number   10 characters
+        \N           display UIC identifier   Varies
+
+2 Quote
+3 For
+4 Customer
+
+ Having entered figures for costing, a quote may be produced for
+ the customer.  You will be able to edit the quote document so
+ that freight charges, delivery period and other comments may be
+ added to the quote.  Finally the quote will be printed out to
+ the systems printer, ready to mail to the customer.
+
+2 Purchase
+3 Order
+
+ This option will take an ENQUIRY and produce a purchase order
+ for each supplier specified in the enquiry database.  Note, only
+ the suppliers specified in the field 'Supplier Used' will
+ receive orders i.e. only one supplier per item in the customer
+ enquiry.  It is therefore important that the Enquiry option is
+ used before this option to ensure that : a) All information is
+ up to date, quantities and prices etc... b) The supplier you are
+ going to use for a specific item has been indicated in the
+ 'Supplier Used' field of the ENQUIRY database
+
+2 Invoice
+
+ This option will print out an invoice for the customer.  It is
+ best used after the supplier orders have been made.  You should
+ ensure that all the information for the enquiry specified is up
+ to date before selecting this option.  The invoice document can
+ be edited in order to add declarations, comments etc... to the
+ invoice document.  The document is then printer out on the
+ system printer.
+
+2 Packing
+3 List
+
+ This option will produce a packing list for the supply depot. 
+ The data used must be up to date as for the 'Produce Invoice'
+ option.  If part shipment is made then you must edit the enquiry
+ to show this fact.  Once all this is done the document will be
+ printed out on the system printer.
+
+1 Customer
+2 Database
+
+ Selection  of this option will take you to another menu.  From
+ here you may add/delete/edit customer names etc.. from the
+ customer database.  Each customer is specified using a short
+ code which is a string of characters between 1 and 7 letters
+ long.  This must be unique and if it is not then the application
+ will tell you to re-enter this piece of data.
+
+1 Supplier
+2 Database
+
+ Selection of this option will take you to another menu.  From
+ here you may add/delete/edit customer names etc.. from the
+ supplier database.  Each supplier is specified using a short
+ code which is a string of characters between 1 and 7 letters
+ long.  This must be unique and if it is not then the application
+ will tell you to re-enter this piece of data.
+
+1 Set
+2 Enquiry
+3 Number
+
+ Selection of this option will produce a prompt at the bottom of
+ the screen :
+
+           Enter Enquiry Number:
+
+ You can now enter the 10 digits of an enquiry number.  This is
+ the number of the enquiry used by all the options except 'Create
+ New Enquiry'.  It must be set correctly or you will be using the
+ wrong data.
+
+1 Quit
+
+ This option will clear the screen and display the following
+ message in a box:
+
+           Are You Sure You Want To Quit Now (Y/N)?
+
+ If you press 'y' then you will leave the program.  Pressing any
+ other key will return you to the main menu, in exactly the same
+ state as you were in before you selected 'Quit'.
+
+1 Return
+2 To
+3 Main
+4 Menu
+
+ Selection of this option will take you to the main menu screen
+ where you can select :
+
+           Enquiry
+           Costing/Produce Order
+           Utilities
+           Customer Database
+           Supplier Database
+           Set Enquiry Number
+           Quit
+
+ To use this function simply move the highlight bar to the
+ 'Return To Main Menu' option and press the RETURN key.
+
+1 Create
+2 Fax
+
+ This option will allow you to create and edit a fax to a
+ customer or supplier.  Upon selection a new screen is displayed. 
+ You must press 'S' to select a Supplier, 'C' to select a
+ customer or 'Q' to return to the utilities menu.  Secondly you
+ will be required to enter a name for the fax.  This is similar
+ to a VMS file name and may be up to 20 characters in length. 
+ Finally you will enetr the short code of the customer/supplier
+ you wish to send the fax to.  The application will produce a fax
+ according to the laout of KLC$PATH:FAX1.LIS.  The editor will
+ then appear and ammendments made to the fax.  Finally you may
+ print the fax by pressing Y when asked if you wish to print or
+ not.
+
+2 New
+3 Enquiry
+
+ This option will allocate a new enquiry number and allow you to
+ enter a brand new enquiry for a customer.  The customer short
+ code must be known in order for the application to use all the
+ relevant data.
+
+1 Edit
+2 Individual
+3 Enquiry
+
+ This option will allow you to individually edit and then print
+ out orders to suppliers.  The Produce Supplier Order option
+ allows all the inital files to be created and thus should always
+ be used first.  After selection of the option you are asked to
+ enter the short code for the supplier whoose enquiry requires
+ adjustment.  The editor will then appear.  After editing press
+ CTRL/Z and you return to the KLC system screen and are told to
+ press "P" to print the new file.  If you do not want to print it
+ then just press any key to return to the menu.
+
+2 Customer
+
+ This option will allow you to alter a customers address, name,
+ short code etc.  Upon selecting the option a new screen is
+ displayed.  You must enter the short code of the customer you
+ want to change.  If the application can not find the short code
+ you requested it will beep and tell you this has happened on the
+ screen.  Once a customer record has been found it is displayed
+ at the bottom of the screen.  You are then asked if you want to
+ Edit or Delete the option.  Pressing 'd' will cause a message to
+ be displayed :
+
+              Are You Sure You Want To Delete This Record (Y/N)?
+
+ If you press 'Y' then the record is deleted and can never be
+ recovered (unless you type it in again !!).  If you press 'N'
+ then you will return to the customer data base menu options
+ screen.
+
+ If you Edit a record then editing continues as in the 'Add
+ Customer' option.
+ 
+2 Supplier
+ 
+ This option will allow you to alter a suppliers address, name,
+ short code etc.  Upon selecting the option a new screen is
+ displayed.  You must enter the short code of the supplier you
+ want to change.  If the application can not find the short code
+ you requested it will beep and tell you this has happened on the
+ screen.  Once a supplier record has been found it is displayed
+ at the bottom of the screen.  You are then asked if you want to
+ Edit or Delete the option.  Pressing 'd' will cause a message to
+ be displayed :
+
+              Are You Sure You Want To Delete This Record (Y/N)?
+
+ If you press 'Y' then the record is deleted and can never be
+ recovered (unless you type it in again !!).  If you press 'N'
+ then you will return to the supplier data base menu options
+ screen.
+
+ If you Edit a record then editing continues as in the 'Add
+ Supplier' option.
+ 
+2 Existing
+3 Enquiry
+
+ This option allows you to change an existing enquiry.  The 'Set
+ Enquiry Number' option should first be used (On the Main Menu)
+ to specify which enquiry number to alter.  You will then be able
+ to add/delete lines and alter information held in the existing
+ enquiry.  If the enquiry does not exist then an error message
+ will be displayed and you will return to the Enquiry menu
+ screen.  This option is useful for changing part numbers and
+ selecting which supplier is used for the final order.
+
+1 Enter
+2 Costing
+3 Figures
+
+ This will allow you to enter costing figures into an enquiry. 
+ You are able to enter the discount (As a percentage) you are
+ getting from the supplier, the discount you are giving to the
+ customer (Both discounts are relative to the unit price), unit
+ price of item, percentage profit to make on the item and the
+ computer will calculate the cost and profit of the sale.
+
+1 Add
+2 Customer
+
+ On selection of this option you are asked to enter the short
+ code of a new customer, then the customer name ( company name )
+ and the contact name, address, fax/telephone numbers.  To enter
+ each item, type at the keyboard, you may use the arrow keys to
+ move around each field.  Initially the input is in overstrike
+ mode, but if you want to insert characters press CONTROL/A. 
+ This key combination will switch between overstrike/insert mode. 
+ After you are satisfied with the data entered press RETURN.  If
+ at any time you do not want to continue type 'QUIT' as the first
+ 4 characters of the field - NOTE the 'QUIT' must be in capital
+ letters or it will not work.
+
+ After entering the address the computer will add the customer to
+ the customer database.  If the short code is not unique you will
+ have to re-enter it from the start until it is unique.
+
+2 Supplier
+
+ On selection of this option you are asked to enter the short
+ code of a new supplier, then the supplier name ( company name )
+ and the contact name, address, fax/telephone numbers.  To enter
+ each item, type at the keyboard, you may use the arrow keys to
+ move around each field.  Initially the input is in overstrike
+ mode, but if you want to insert characters press CONTROL/A. 
+ This key combination will switch between overstrike/insert mode. 
+ After you are satisfied with the data entered press RETURN.  If
+ at any time you do not want to continue type 'QUIT' as the first
+ 4 characters of the field - NOTE the 'QUIT' must be in capital
+ letters or it will not work.
+
+ After entering the address the computer will add the supplier to
+ the supplier database.  If the short code is not unique you will
+ have to re-enter it from the start until it is unique.
+
+1 Find
+2 Customer
+
+ The 'Find Customer' option allows you to enter a short code and
+ the computer searches the data base for that short code.  If it
+ finds it then all the information such as address and contact
+ are displayed in a box.  If it is not found then a beep will
+ sound and you will have to re-enter the short code (or 'QUIT' to
+ abort the operation).
+
+ When an entry is found you are asked to press any key to
+ continue, after which you will return to the customer database
+ menu.
+
+ If the short code of a customer is not known then entering a *
+ as the first character of the short code will list all the
+ customers on the database.  Each is displayed separately.  Press
+ any key to see the next entry or "Q" to abort the list.
+ 
+2 Supplier
+
+ The 'Find Supplier' option allows you to enter a short code and
+ the computer searches the data base for that short code.  If it
+ finds it then all the information such as address and contact
+ are displayed in a box.  If it is not found then a beep will
+ sound and you will have to re-enter the short code (or 'QUIT' to
+ abort the operation).
+
+ When an entry is found you are asked to press any key to
+ continue, after which you will return to the supplier database
+ menu.
+
+ If the short code of a supplier is not known then entering a *
+ as the first character of the short code will list all the
+ suppliers on the database.  Each is displayed separately.
