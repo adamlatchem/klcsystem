@@ -1,0 +1,22 @@
+PROCEDURE klc_tpuinclude
+        MESSAGE ("Enter name of text to include.");
+        fil := READ_LINE( "Text :");
+        IF fil>"" THEN;
+                READ_FILE( "KLC$PATH:"+fil+".TXT" );
+                MESSAGE( "Text has been inserted.");
+        ELSE
+                MESSAGE ("Operation Aborted." );
+        ENDIF;
+ENDPROCEDURE
+
+PROCEDURE klc_tpuwrite
+        MESSAGE ("Enter name to write cut text to");
+        fil := READ_LINE( "Text :" );
+        IF fil>"" THEN;
+                buf := GET_INFO( BUFFER, "find_buffer", "INSERT HERE" );
+                WRITE_FILE( buf, "KLC$PATH:"+fil+".TXT" );
+                MESSAGE( "Text has been written.");
+        ELSE
+                MESSAGE( "Operation Aborted." );
+        ENDIF;
+ENDPROCEDURE;
