@@ -1,0 +1,24 @@
+.TITLE          KLCMSG Run-time error messages
+.IDENT          'KLC VERSION 1.2'
+.FACILITY       KLC, 1 /PREFIX=KLC_
+.SEVERITY       INFORMATION
+
+CARITHE         <An error occurred during an arithmetic operation.>
+NORMAL          <Operation completed successfully.>
+PUSDID          <No UIC identifier available for current user.>
+SSELNFIL        <The user tried to open a supplier file that does not exist.>
+VCISTR          <A validation check altered user data.>
+
+.SEVERITY       ERROR
+
+CNNUMAVL        <All enquiry numbers have been used for today.>
+GTFFDNS         <Unable to read format data from tag file.>
+PNSUCSC         <PARSE routine unable to find short code in database file.>
+TCPROF          <An error occurred while TOTAL was calculating the profit.>
+TCPTOT          <An error occurred whileculating the total.>
+
+.SEVERITY       FATAL
+
+UNS             <Unsupported error, execution aborted.>
+
+.END
